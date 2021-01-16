@@ -1,0 +1,28 @@
+postlist:
+  - group: Termux - Lets Start Coding on your Android Device
+    posts:
+      - title: Let's Begin
+        status: complete
+        url: /termux/lets-begin.html
+      - title: Evolution in psuedo-IDE
+        status: complete
+        url: /termux/evolution-in-psuedo-IDE.html
+  - group: Using the Terminal
+    posts:
+      - title: Bash Startup Automation
+        status: complete
+        url: /linux/shell%20scripting/startup-automation.html
+  - group: Git - The Version Control
+    posts:
+      - title: Git - The Basics
+        url: /git/Using-Git-The-Basics.html
+        status: completed
+        micropost:
+          - title: Simplify Workings Using SSH
+            url: /git/github/Simplify-Workings-Using-SSH.html
+            status: completed
+  - group: Python - Not The Snake!
+    posts:
+      - title: Introduction, Why and How?
+        url: /still-working
+        status: coming-soon

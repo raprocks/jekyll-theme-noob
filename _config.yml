@@ -1,0 +1,47 @@
+# Setup
+title: Test Blog
+tagline: Tagline Here
+description: Description Here
+url: https://raprocks.github.io/
+baseurl: ""
+permalink: :categories/:title:output_ext
+
+# Gems
+plugins:
+    - jekyll-gist
+    - jekyll-paginate
+    - jekyll-seo-tag
+    - jekyll-target-blank
+    - jekyll-sitemap
+# Optimize Jekyll
+exclude:
+    - .editorconfig
+    - .git
+    - .jekyll-cache
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE.md
+    - README.md
+
+sass:
+    sass_dir: _sass
+    style: :gv compressed
+
+# Specify the author for blog posts
+author:
+    name: First Last
+    email: example@mail.com
+    facebook_id: fbid
+    instagram_id: instagramid
+    github_id: githubusername
+    telegram_id: telegramid
+
+ga_analytics: googleanalyticstag
+# set jekyll env to development and ga_analytics isnt activated when you are in local environment
+
+# highlighter and stuff
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+    highlighter: rouge
+    footnote_backlink: "&#10548;"
