@@ -1,10 +1,9 @@
-<nav id="nav">
+<nav>
     <ul class="navlist">
         {% for item in site.data.nav %}
-        <li class="navitem">
-            <a href="{{ item.url }}">
-                {{ item.navitem }}</a>
-        </li>
+            <li class="navitem">
+                <a href="{{ item.url }}">{{ item.navitem }}</a>
+            </li>
         {% endfor %}
     </ul>
 </nav>
