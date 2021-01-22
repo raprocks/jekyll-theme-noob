@@ -1,11 +1,12 @@
 # Setup
-title: Test Blog
-tagline: Tagline Here
-description: Description Here
+title: CodeInc
+tagline: Learn Code the Right Way
+description: A Blog Made By a Beginner to Serve Other Begginers.
 url: https://raprocks.github.io/
 baseurl: ""
 permalink: :categories/:title:output_ext
-logo: /logo-social-sq.png
+logo:
+    /logo-social-sq.png
     # Gems
 plugins:
     - jekyll-gist
@@ -29,8 +30,8 @@ sass:
 
 # Specify the author for blog posts
 author:
-    name: First Last
-    email: example@mail.com
+    name: Rohit Patil
+    email: rahulhimesh09@gmail.com
     facebook_id: fbid
     instagram_id: instagramid
     github_id: githubusername
