@@ -5,15 +5,15 @@ description: Description Here
 url: https://raprocks.github.io/
 baseurl: ""
 permalink: :categories/:title:output_ext
-
-# Gems
+logo: /logo-social-sq.png
+    # Gems
 plugins:
     - jekyll-gist
     - jekyll-paginate
     - jekyll-seo-tag
     - jekyll-target-blank
     - jekyll-sitemap
-# Optimize Jekyll
+      # Optimize Jekyll
 exclude:
     - .editorconfig
     - .git

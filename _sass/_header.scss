@@ -1,0 +1,16 @@
+$color1: #1db954;
+$color2: #2d2125;
+
+.logo {
+    width: 100%;
+    font-size: 2vw;
+    a {
+       img {
+            width: clamp(50vw, calc(50vw+5em),80vw);
+        }
+    }
+}
+
+header {
+    background-color: $headerbgcolor;
+}
