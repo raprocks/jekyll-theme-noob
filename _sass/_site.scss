@@ -6,3 +6,18 @@ body {
     color: $color_dark;
   }
 }
+
+main {
+  margin: 0rem clamp(10px, 3rem, 20vw);
+}
+
+p {
+  margin: 1rem 0rem;
+}
+pre {
+  margin: 0.3rem;
+  code {
+    font-family: $code_font;
+    text-rendering: optimizeLegibility;
+  }
+}

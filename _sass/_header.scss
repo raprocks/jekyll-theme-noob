@@ -1,59 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@500&display=swap');
 header {
-    color: whitesmoke;
-    display: flex;
-    background-color: $headerbgcolor;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
+  color: whitesmoke;
+  display: flex;
+  background-color: $headerbgcolor;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
 }
-
 #logo {
-    font-size: 8rem;
-    color: springgreen;
-    font-family: 'Fredoka One', cursive;
-    margin-bottom: 8px;
-    text-align: center;
-    animation: neonify 5s ease-in-out infinite;
-}
-
-#title {
-    font-size: 5rem;
-    color: rgb(56,176,220);
-    font-family: 'Fredoka One', cursive;
-}
-
-#tagline{
-    font-size: 2rem;
-    color: rgba(245,245,245,0.6);
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-nav {
-    ul {
-        font-family: 'Raleway', sans-serif;
-        display: flex;
-        list-style-type: none;
-        li {
-            font-size: 1.3rem;
-            margin: 1em 0em;
-            padding: 0 0.3em;
-        }
+  height: 20vh;
+  width: 40vh;
+  svg {
+    path {
+      fill: $logo_fill;
+      stroke-width: 1;
     }
+  }
+}
+#title {
+  font-size: 5rem;
+  margin-top: 1em;
+  color: rgb(56, 176, 220);
+  font-family: "Elianto", cursive;
 }
 
-
+#tagline {
+  font-size: 2rem;
+  color: rgba(245, 245, 245, 0.8);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
 
 @keyframes neonify {
-    0% {
-        text-shadow: 0px 0px 0px mediumspringgreen;
+  0% {
+    text-shadow: 0px 0px 0px mediumspringgreen;
+  }
+  50% {
+    text-shadow: 0px 0px 30px mediumspringgreen;
+  }
+  100% {
+    text-shadow: 0px 0px 0px mediumspringgreen;
+  }
+}
+nav {
+  display: flex;
+  justify-content: center;
+
+  ul {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    list-style-type: none;
+    li {
+      font-size: 1.6rem;
+      margin: 1em 0em;
+      padding: 0 0.3em;
     }
-    50%{
-        text-shadow: 0px 0px 30px mediumspringgreen;
-    }
-    100% {
-        text-shadow: 0px 0px 0px mediumspringgreen;
-    }
+  }
 }

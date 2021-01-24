@@ -1,16 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@500&display=swap");
+@font-face {
+  font-family: "Elianto";
+  src: url("/assets/fonts/Elianto-Regular.ttf") format("truetype");
+}
 // Light Mode Settings Here
-$background_light: #E4EEEE;
-$color_light: #1C3739;
+$background_light: #e4eeee;
+$color_light: #1c3739;
 
 // Dark Mode Settings here
-$background_dark: #1C3739;
-$color_dark:#E4EEEE;
+$background_dark: #1c3739;
+$color_dark: #e4eeee;
+// fonts
+$head_font: "Fredoka One", cursive;
+$head_font_weight: 300;
+$content_font: "Raleway", sans-serif;
+$content_font_weight: regular;
+$code_font: "Cascadia Code", monospace;
 
-$headerbgcolor: rgba(49, 59, 69, 1);
+// header colors
+$headerbgcolor: rgb(35, 48, 70);
+$logo_fill: #01df4b;
 
-
-$color1: #E4EEEE;
-$color2: #DFA155;
+//vars
+$color1: #e4eeee;
+$color2: #dfa155;
 $color3: #649599;
-$color4: #1C3739;
-$color5: #EC306A;
+$color4: #1c3739;
+$color5: #ec306a;

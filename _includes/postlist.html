@@ -2,7 +2,7 @@
 <div class="postlist-items">
   {% for item in site.data.postlist.postlist %}
   <div class="postlist-item">
-    <h3 class="category-title">{{ item.group }}</h3>
+    <h4 class="category-title">{{ item.group }}</h4>
     {% if item.posts[0] %}
     <ul class="sublist1">{% for entry in item.posts %}
       <li>{% if entry.status=="coming soon"%}<span class="soon">coming soon</span>
