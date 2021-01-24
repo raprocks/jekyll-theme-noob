@@ -1,6 +1,8 @@
 body {
   background-color: $background_light;
+  color: $color_light;
   @media (prefers-color-scheme: dark) {
     background-color: $background_dark;
+    color: $color_dark;
   }
 }
