@@ -22,7 +22,7 @@
               .cls-3 {
                 fill: none;
                 stroke: #000;
-                stroke-width: 6px;
+                stroke-width: 3px;
               }
             </style>
             <mask id="mask" x="0" y="0" width="220" height="150" maskUnits="userSpaceOnUse">
@@ -55,17 +55,10 @@
           </g>
         </svg>
       </div>
-      <div id="title">C0de1nc</div>
+      <div id="title">CodeInc</div>
       <div id="tagline">Learn to Code, the right way, the fast way.</div>
     </header>
-    <nav>
-      <ul>
-        <li>Posts</li>
-        <li>Archive</li>
-        <li>Our Team</li>
-        <li>About</li>
-      </ul>
-    </nav>
+    {% include nav.html%}
     <main>
       {{ content | smartify }}
     </main>
