@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@500&display=swap");
-@font-face {
-  font-family: "Elianto";
-  src: url("/assets/fonts/Elianto-Regular.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600;700&family=Roboto+Slab&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
 // Light Mode Settings Here
 $background_light: #e4eeee;
 $color_light: #1c3739;
@@ -11,15 +9,19 @@ $color_light: #1c3739;
 $background_dark: rgba(0, 0, 0, 0.8);
 $color_dark: #e4eeee;
 // fonts
-$head_font: "Fredoka One", cursive;
+$site_title_font: "Jost", sans-serif;
+$site_title_font_weight: 800;
+$site_tagline_font: "Raleway", sans-serif;
+$head_font: "Jost", cursive;
 $head_font_weight: 300;
-$content_font: "Raleway", sans-serif;
+$content_font: "Roboto Slab", sans-serif;
 $content_font_weight: regular;
 $code_font: "Cascadia Code", monospace;
+$root_font_size : 16px;
 
 // header colors
 $headerbgcolor: rgb(35, 48, 70);
-$logo_fill: #01df4b;
+$logo_fill: rgba(12,234,67,1);
 
 //vars
 $color1: #e4eeee;

@@ -2,10 +2,12 @@ header {
   color: whitesmoke;
   display: flex;
   background-color: $headerbgcolor;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   z-index: 1;
+  min-height: 60vh;
+  padding: 2em 0rem;
 }
 #logo {
   height: 20vh;
@@ -21,14 +23,15 @@ header {
   font-size: 5rem;
   margin-top: 1em;
   color: rgb(56, 176, 220);
-  font-family: "Elianto", cursive;
+  font-family: $site_title_font;
+  font-weight: $site_title_font_weight;
 }
 
 #tagline {
   font-size: 2rem;
   color: rgba(245, 245, 245, 0.8);
   text-align: center;
-  font-family: "Raleway", sans-serif;
+  font-family: $site_tagline_font;
 }
 
 @keyframes neonify {
