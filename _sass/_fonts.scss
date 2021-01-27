@@ -30,6 +30,7 @@ h3,
 h4,
 h5,
 h6 {
+  position: relative;
   margin-top: 0.3rem;
   margin-bottom: 0.3em;
   font-family: $head_font;
@@ -38,4 +39,15 @@ h6 {
 
 main {
   font-family: $content_font;
+}
+
+h2::before, h3::before, h4::before, h5::before, h6::before {
+  content: "#";
+  color: #55555c;
+  left: -0.7em;
+  position: absolute;
+
+  @media (prefers-color-scheme: dark) {
+    color: #d0f6db;
+  }
 }

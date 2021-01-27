@@ -10,15 +10,15 @@ title: Styles
 ## <small>THIS IS A HEADER</small>
 
 This is the font, size, color and spacing of regular ol' paragraph <p> text. Using Markdown makes it dead simple
-to make text *italic*, **bold** or ***bold and italic***.
+to make text *italic*, **bold** or **_bold and italic_**.
 
 term
-: *definition*
+: definition
 
 If you want to reference a footnote it appears like this[^1] in a sentence.
 
 <figure>
-  <img src="/assets/test.png" alt="Testing">
+  <img src="/assets/favicon.ico" alt="Testing">
   <figcaption>Here is an image with a caption below it.</figcaption>
 </figure>
 

@@ -23,3 +23,58 @@ pre {
     text-rendering: optimizeLegibility;
   }
 }
+
+dl {
+  dt {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  dd {
+    font-size: 1.2rem;
+    text-indent: 1em;
+    &::before {
+      content: "- ";
+      position: relative;
+      top: 0px;
+      font-weight: 600;
+    }
+  }
+}
+
+a {
+  color: rgb(204, 39, 149);
+  font-weight: 700;
+  background-color: rgba(149, 204, 204, 1);
+  padding: 0rem 0.4em;
+}
+
+sup {
+  a {
+    border-radius: 4px;
+  }
+}
+ul {
+  list-style-position: inside;
+  li {
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+figure {
+  display: flex;
+  width: 100%;
+  padding: 0.6em 0;
+  margin: 0.5em 0 !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 40%;
+    margin: 0.3em 0;
+  }
+  figcaption {
+    color: #848888;
+    font-size: 0.9em;
+  }
+}

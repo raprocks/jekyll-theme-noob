@@ -2,7 +2,7 @@
 title: CodeInc
 tagline: Learn Code the Right Way
 description: A Blog Made By a Beginner to Serve Other Begginers.
-url: https://raprocks.github.io/
+url: https://raprocks.github.io
 baseurl: ""
 permalink: :categories/:title:output_ext
 logo:
@@ -45,5 +45,4 @@ ga_analytics: googleanalyticstag
 markdown: kramdown
 kramdown:
     syntax_highlighter: rouge
-    highlighter: rouge
     footnote_backlink: "&#10548;"

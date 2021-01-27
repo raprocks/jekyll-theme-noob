@@ -1,14 +1,25 @@
 header {
   color: whitesmoke;
   display: flex;
-  background-color: $headerbgcolor;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  z-index: 1;
-  min-height: 60vh;
+  z-index: 999999;
+  min-height: 50vh;
   padding: 2em 0rem;
+  position: relative;
 }
+header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  background: $headerbgcolor;
+}
+
 #logo {
   height: 20vh;
   width: 40vh;
@@ -32,6 +43,7 @@ header {
   color: rgba(245, 245, 245, 0.8);
   text-align: center;
   font-family: $site_tagline_font;
+  font-weight: $site_tagline_font_weight;
 }
 
 @keyframes neonify {
