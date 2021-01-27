@@ -7,7 +7,7 @@ $background_light: #e4eeee;
 $color_light: #1c3739;
 
 // Dark Mode Settings here
-$background_dark: rgba(0, 0, 0, 0.8);
+$background_dark: rgba(0, 0, 0, 0.7);
 $color_dark: #e4eeee;
 // fonts
 $site_title_font: 'Space Grotesk', sans-serif;
@@ -18,9 +18,10 @@ $head_font: "Jost", cursive;
 $head_font_weight: 300;
 $content_font: "Roboto Slab", sans-serif;
 $content_font_weight: regular;
+$content_font_size: 16px;
 $code_font: "Cascadia Code", monospace;
-$root_font_size: clamp(16px, 2vw,20px);
-$heading_color: rgb(0, 224, 198);
+$root_font_size: clamp(20px, 2vw,24px);
+$heading_color: rgba(0, 224, 198,0.8);
 $link_color: rgb(47, 147, 130);
 $link_background_color: rgba(130,26,129,0.5);
 $caption_color : rgba(177,177,177,0.8);
