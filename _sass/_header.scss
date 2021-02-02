@@ -1,5 +1,5 @@
 header {
-  color: whitesmoke;
+  background-color: $headerbgcolor;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,26 +9,27 @@ header {
   padding: 2em 0rem;
   position: relative;
 }
-header::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -10;
-  background: $headerbgcolor;
-}
 
 #logo {
   height: 20vh;
   width: 40vh;
   svg {
+      backdrop-filter: blur(6px);
     path {
       fill: $logo_fill;
       stroke-width: 1;
     }
   }
+}
+#backmatrix {
+    filter:blur(1px);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: -1;
+    background-color: rgba(23,45,56,0.7);
 }
 #title {
   font-size: 5rem;
@@ -46,17 +47,6 @@ header::before {
   font-weight: $site_tagline_font_weight;
 }
 
-@keyframes neonify {
-  0% {
-    text-shadow: 0px 0px 0px mediumspringgreen;
-  }
-  50% {
-    text-shadow: 0px 0px 30px mediumspringgreen;
-  }
-  100% {
-    text-shadow: 0px 0px 0px mediumspringgreen;
-  }
-}
 nav {
   display: flex;
   justify-content: center;
@@ -66,7 +56,7 @@ nav {
     display: flex;
     list-style-type: none;
     li {
-      font-size: 1.6rem;
+      font-size: 1.2em;
       margin: 1em 0em;
       padding: 0 0.3em;
     }

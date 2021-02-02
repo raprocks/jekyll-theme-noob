@@ -2,6 +2,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@600;700&family=Roboto+Slab&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+$color1: #6666BD;
+$color2: #556EC5;
+$color3: #3F75CC;
+$color4: #177DD2;
+$color5: #0083D6;
+$color6: #008AD9;
+$color7: #0090DA;
+$color8: #0097DA;
+$color9: #009CD8;
+$color10: #00A2D6;
+$color11: #00A7D1;
+$color12: #00ACCC;
+$color13: #00B0C6;
+$color14: #00B5BF;
+$color15: #00B9B8;
+$color16: #00BDB0;
+$color17: #00C1A7;
+$color18: #00C49F;
+$color19: #25C796;
+$color20: #49CA8E;
 // Light Mode Settings Here
 $background_light: #e4eeee;
 $color_light: #1c3739;
@@ -14,20 +34,20 @@ $site_title_font: 'Space Grotesk', sans-serif;
 $site_title_font_weight: 800;
 $site_tagline_font: 'Space Grotesk', sans-serif;
 $site_tagline_font_weight: 300;
-$head_font: "Jost", cursive;
-$head_font_weight: 300;
+$head_font: "Lato", sans-serif;
+$head_font_weight: 500;
 $content_font: "Roboto Slab", sans-serif;
 $content_font_weight: regular;
 $content_font_size: 16px;
 $code_font: "Cascadia Code", monospace;
 $root_font_size: clamp(20px, 2vw,24px);
-$heading_color: rgba(0, 224, 198,0.8);
+$heading_color: $color19;
 $link_color: rgb(47, 147, 130);
 $link_background_color: rgba(130,26,129,0.5);
 $caption_color : rgba(177,177,177,0.8);
 
 // header colors
-$headerbgcolor: rgb(35, 48, 70);
+$headerbgcolor: rgb(42, 48, 56);
 $logo_fill: rgba(12, 234, 67, 1);
 
 //vars
@@ -36,3 +56,5 @@ $color2: #dfa155;
 $color3: #649599;
 $color4: #1c3739;
 $color5: #ec306a;
+
+
