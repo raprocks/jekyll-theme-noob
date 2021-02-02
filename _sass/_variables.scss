@@ -40,7 +40,7 @@ $content_font: "Roboto Slab", sans-serif;
 $content_font_weight: regular;
 $content_font_size: 16px;
 $code_font: "Cascadia Code", monospace;
-$root_font_size: clamp(20px, 2vw,24px);
+$root_font_size: clamp(1rem, calc(0.4444rem + 1.4691vw), 2.5rem);
 $heading_color: $color19;
 $link_color: rgb(47, 147, 130);
 $link_background_color: rgba(130,26,129,0.5);
