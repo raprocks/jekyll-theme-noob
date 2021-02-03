@@ -14,40 +14,33 @@ header {
   height: 20vh;
   width: 40vh;
   svg {
-      backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
     path {
       fill: $logo_fill;
       stroke-width: 1;
     }
   }
 }
-#backmatrix {
-    filter:blur(1px);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top:0;
-    left:0;
-    z-index: -1;
-    background-color: rgba(23,45,56,0.7);
-}
 #title {
+  background-color: rgba(22, 22, 22, 0.8);
   font-size: 5rem;
   margin-top: 1em;
-  color: rgb(56, 176, 220);
+  color: $site_title_color;
   font-family: $site_title_font;
   font-weight: $site_title_font_weight;
 }
 
 #tagline {
   font-size: 2rem;
-  color: rgba(245, 245, 245, 0.8);
+  color: $site_tagline_color;
+  background-color: rgba(22, 22, 22, 0.5);
   text-align: center;
   font-family: $site_tagline_font;
   font-weight: $site_tagline_font_weight;
 }
 
 nav {
+  background-color: $navbar_background_color;
   display: flex;
   justify-content: center;
 
@@ -59,6 +52,9 @@ nav {
       font-size: 1.2em;
       margin: 1em 0em;
       padding: 0 0.3em;
+      a {
+        color: $navlink_font_color !important;
+      }
     }
   }
 }
